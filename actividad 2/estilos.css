@@ -1,0 +1,80 @@
+.contenedor{
+    width: 70%;
+    margin: 0 auto;
+    background-color: bisque;
+    height: 180vh;
+}
+h1 {
+    text-align: center;
+    color: #E65A50;
+    text-shadow: -5px 2px 2px #40FF8F;
+}
+.caja1{
+    width: 50%;
+    margin: 0 auto;
+    height: 40em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#imagen{
+    width: 100%;
+}
+#boton{
+    display: none;
+    font-size: xx-large;
+    height: 3em;
+    border-radius: 19px;
+    border: 3px solid #E6C622;
+    background-color: #A19DE6;
+    transition: 0.2s all ease-in-out;
+}
+#boton:hover{
+    box-shadow: 15px 21px 20px 0px rgba(0,0,0,0.75);
+    animation: cambiocolor 1s ease-in-out infinite;
+
+}
+@keyframes cambiocolor {
+    0%{
+        background-color: #A19DE6;
+    }
+    25%{
+        background-color: #9dd7e6;
+    }
+    50%{
+        background-color: #9de6a9;
+    }
+    75%{
+        background-color: #bae69d;
+    }
+    100%{
+        background-color: #A19DE6;
+    }
+
+}
+#movercaja{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(247, 108, 135);
+    margin: 0 auto;
+    position: absolute;
+    left: 50%;
+    z-index: 1;
+    top: 600px;
+    text-align: center;
+    
+}
+#movercaja:hover{
+    cursor: pointer;
+}
+#em{
+    margin-top: 5em;
+    font-size: 1.3em;
+}
+#porcentaje{
+    font-size: 230%;
+}
+#ex{
+    font-size: 2ex;
+}

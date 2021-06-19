@@ -1,0 +1,125 @@
+header{
+    height: 8.771929824561404vh;
+    background-color: #ffffff;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.botonmenu{
+    border-radius: 30px;
+    width: 100px;
+    height: 40px;
+    border: 1px solid rgb(176, 176, 176);
+    background-color: #fff;
+}
+.fa-bars{
+    margin-right: 15px !important;
+    
+}
+form{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+#buscador{
+    width: 45%;
+    height: 50px;
+    border: 1px solid rgb(176, 176, 176);
+    border-radius: 30px;
+    background-color: #fff;
+
+}
+#buscador input{
+    border: none;
+    border-radius: 30px;
+}
+main{
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+}
+footer{
+    padding-top: 3em;
+    height: 56.14035087719298vh;
+    background-color: #F7F7F7;
+    border-top: 1px solid #DDDDDD;
+}
+aside{
+    width: 40%;
+    height: 100%;
+}
+section{
+    width: 60%;
+    height: 100%;
+}
+article{
+    margin-top: 5em;
+    padding: 5%;
+}
+#logo,#socio,#busqueda{
+    width: 33.33%;
+    height: 100%;
+}
+#logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+#socio{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 50px;
+}
+#socio>p{
+    margin-right: 50px;
+    font-size: x-large;
+    text-align: center;
+}
+#socio>i{
+    margin-right: 20px;
+}
+#busqueda{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.row{
+    margin-bottom: 25px !important;
+    margin-top: 25px !important;
+}
+.row>button{
+    width: 15%;
+}
+iframe{
+    width: 100%;
+    height: 100%;
+}
+.botonredondo{
+    margin-left: 5%;
+    border: 1px solid rgb(176, 176, 176);
+    border-radius: 30px;
+    color: rgb(34, 34, 34);
+    padding: 8px 16px;
+    font-size: 12px;
+    line-height: 16px;
+    background-color: #fff;
+}
+li{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.card{
+    height: 350px;
+}
+.card img{
+    height: 190.750px;
+}
+.fa-search{
+    
+}
